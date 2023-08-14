@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Home</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Vithkuqi&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -15,39 +19,77 @@
 
         <div class="profile">
             <img src="assets/profile/fotoprofil.jpg">
-            <h2>Kevin Pranata</h2>
+            <h1>Kevin Pranata</h1>
             <h4>FullStack Developer</h4>
 
             <div class="socialMedia">
-                <ul><a href="#">Instagram</a></ul>
-                <ul><a href="#">Github</a></ul>
-                <ul><a href="#">Facebook</a></ul>
-                <ul><a href="#">LinkedIn</a></ul>
+
+                <a href="#">
+                    <img src="./assets/icon/facebook.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="./assets/icon/linkedin.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="./assets/icon/twitter.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="./assets/icon/github.png" alt="">
+                </a>
             </div>
 
             <div class="biodata">
-                <ul>Phone
-                    <hr>089089898378
-                </ul>
-                <ul>Email
-                    <hr>asep@gmail.com
-                </ul>
-                <ul>Location
-                    <hr>Jakarta, Indonesia
-                </ul>
+                <div class="biodata-item">
+                    <div class="biodata-item-image">
+                        <img src="./assets/icon/phone.png" alt="">
+                    </div>
+                    <div class="biodata-text-wrapper">
+                        <p class="biodata-item-text title">Phone</p>
+                        <p class="biodata-item-text">+254723909353</p>
+                    </div>
+                </div>
+                <div class="biodata-item">
+                    <div class="biodata-item-image">
+                        <img src="./assets/icon/email.png" alt="">
+                    </div>
+                    <div class="biodata-text-wrapper">
+                        <p class="biodata-item-text title">Email</p>
+                        <p class="biodata-item-text">beatricewambuimbugua@gmail.com</p>
+                    </div>
+                </div>
+                <div class="biodata-item">
+                    <div class="biodata-item-image">
+                        <img src="./assets/icon/location.png" alt="">
+                    </div>
+                    <div class="biodata-text-wrapper">
+                        <p class="biodata-item-text title">Location</p>
+                        <p class="biodata-item-text">Nairobi, Kenya</p>
+                    </div>
+                </div>
+
+                <button class="download-button">
+                    Download Resume
+                </button>
             </div>
         </div>
 
         <div class="container2">
-
             <div class="navbar">
-                <nav> <a href="#">Home</a></nav>
-                <nav> <a href="resume.html">Resume</a></nav>
-                <nav> <a href="contact.html">Contact</a></nav>
+                <div class="nav-wrapper">
+                    <nav>
+                        <a href="#">Home</a>
+                    </nav>
+                    <nav>
+                        <a href="resume.html">Resume</a>
+                    </nav>
+                    <nav>
+                        <a href="contact.html">Contact</a>
+                    </nav>
+                </div>
             </div>
 
             <div class="content">
-                <h1>About Me</h1>
+                <h1>About <span class="color-red">Me</span></h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quasi ea dolorem quae suscipit
                     porro illo at voluptatum molestiae similique! Molestias, cum aliquid! Officiis delectus fugit quae,
                     repellendus exercitationem veritatis dignissimos eos rem quis odio officia nulla inventore aliquid
@@ -57,7 +99,7 @@
                     perspiciatis odit ullam qui esse voluptatem quasi a ducimus, nesciunt reprehenderit libero pariatur
                     eius odio? Nulla itaque aspernatur reiciendis laboriosam illum! Beatae, error.</p>
 
-                <h2>What I Do!</h2>
+                <h2>What I <span class="color-red">Do!</span></h2>
                 <div class="container3">
                     <div class="webdev">
                         <h1>Web Development</h1>
